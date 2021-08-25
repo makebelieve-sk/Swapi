@@ -1,0 +1,30 @@
+@import 'variables';
+
+#root {
+    background-color: $backgroundApp;
+    height: 100vh;
+}
+
+.app {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-text {
+    font-size: 36px;
+    margin-block: .5rem;
+    padding-inline: 24px;
+    color: #fff;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.ai-c {
+    align-items: center;
+}

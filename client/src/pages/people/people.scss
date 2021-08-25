@@ -1,0 +1,15 @@
+.people-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+
+  .people-wrapper-list {
+    width: 40%;
+  }
+
+  .people-wrapper-details {
+    width: 55%;
+  }
+}

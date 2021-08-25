@@ -1,0 +1,29 @@
+form {
+  min-height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  label {
+    font-size: 20px;
+    color: #00bc8c;
+  }
+
+  input {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
+  .submit-btn {
+    color: #00bc8c;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
